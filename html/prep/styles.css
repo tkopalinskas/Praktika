@@ -1,0 +1,58 @@
+
+
+ul{
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: grey;
+    width:100%;  
+    margin: 0px;
+
+}
+li{
+    float:left;
+    display: center; 
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
+    border-color: white; 
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 24px;
+}
+#logIn{
+    float: right;
+}
+
+
+
+div.main{
+    width: 100%;
+    margin: 15px;
+    height: 100%;
+}
+
+
+div.left {
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(153, 151, 151);
+
+}
+div.mid{
+    float:left;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+banner {
+    width: 100%;
+    margin: 0px;
+}

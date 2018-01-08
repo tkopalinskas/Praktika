@@ -1,0 +1,85 @@
+div {
+    height: 400px;
+
+    
+}
+header, footer{
+    background-color: #D16A42; 
+    align-content: center;
+    color: #133B00;
+    width: 100%;
+}
+header {
+    
+    font-size: 30px; 
+    display: flex;  
+}
+header p {
+    margin-left: 30px;
+    
+}
+div.left {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color:#976666;
+    
+}
+
+
+div.left p  {
+    width: 100%;
+    margin-left: 20px;
+    background-image: linear-gradient(to right, #976666, rgb(133, 13, 13));
+
+}
+a:link{
+    color: black;
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: none;
+    color: red
+
+}
+
+div.mid {
+    
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color:rgb(133, 13, 13);
+    box-shadow: 12px 0 15px -4px rgba(124, 59, 34, 0.8), -12px 0 8px -4px rgba(124, 59, 34, 0.8);
+    outline-color: black; outline-width: 1px;
+    position: relative;
+    
+}
+h1.mid ,p  {
+    margin-left: 20px;
+}
+div.mid ~ p   {
+   margin-right: 20px;
+}
+div.right   {
+    float:left;
+    background-color: #976666;
+    width: 20%;
+    height: 100%;
+    
+}
+div.right > h1{
+    margin-left: 20px;
+    background-image: linear-gradient(to right, #976666, rgb(133, 13, 13));
+}
+h1 + p{
+    margin-left:20px;
+    margin-right: 20px;
+    
+}
+footer p{
+    font-size: 20px;
+    align-items: center;
+    display: inline;
+    
+}
